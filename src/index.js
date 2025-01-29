@@ -25,3 +25,5 @@ app.post('/', async (req, res) => {
 app.listen(2121, () => {
   console.log(`Example app listening on port 2121`)
 })
+
+module.exports = app
