@@ -22,6 +22,10 @@ app.post('/', async (req, res) => {
   }
 })
 
+app.get('/', (req, res) => {
+  res.send("Running...")
+})
+
 app.listen(2121, () => {
   console.log(`Example app listening on port 2121`)
 })
